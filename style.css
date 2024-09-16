@@ -1,0 +1,56 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    text-align: center;
+    background-image: url(skg_3973.jpg);
+    background-size: 100%;
+    Background-position: center;
+    font-family: 'Gill Sans', sans serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  h2 {
+    font-family: "lindsey-signature", sans-serif;
+    font-weight: 500;
+    font-size: 300px;
+    font-style: normal;
+    position: relative;
+    color: #7a8aff;
+    text-decoration: none;
+  }
+  
+  h4 {
+    font-family: "amandine", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+    color: #5ba7e1;
+  }
+  
+  h5 {
+    font-family: "Lindsey-signature", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+    color: #5ba7e1;
+  }
+  
+  h6 {
+    font-family: "amandine", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    color: #d6dcff;
+  }
+  
+ .nav-link{
+    font-family: "amandine", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+    color: #5ba7e1;
+  }
