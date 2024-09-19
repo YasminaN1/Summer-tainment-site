@@ -4,23 +4,24 @@ html {
   }
   
   body {
-    text-align: center;
-    background-image: url();
-    background-size: 100%;
+    background-image: url(imgs/sunset.png);
+    background-size: cover;
     Background-position: center;
     font-family: 'Gill Sans', sans serif;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    text-align: center;
   }
   
-  h2 {
-    font-family: "lindsey-signature", sans-serif;
+  h1 {
+    font-family: "amandine", sans-serif;
     font-weight: 500;
-    font-size: 300px;
+    font-size: 200px;
     font-style: normal;
     position: relative;
-    color: #7a8aff;
+    color: #aecfeb;
     text-decoration: none;
+    margin-top: 200px;
   }
   
   h4 {
@@ -102,4 +103,5 @@ html {
     position: relative;
   }
   
+
 
