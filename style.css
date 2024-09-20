@@ -3,7 +3,7 @@ html {
     width: 100%;
   }
   
-  body {
+  body.home {
     background-image: url(imgs/sunset.png);
     background-size: cover;
     Background-position: center;
@@ -12,7 +12,17 @@ html {
     background-attachment: fixed;
     text-align: center;
   }
-  
+ 
+  body.travels {
+    background-image: url(imgs/palm\ tree.avif);
+    background-size: cover;
+    Background-position: center;
+    font-family: 'Gill Sans', sans serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+  } 
+
   h1 {
     font-family: "amandine", sans-serif;
     font-weight: 500;
@@ -74,9 +84,6 @@ html {
     text-decoration: none;
   }
   
-  nav a:hover {
-    color: #eae210;
-  }
   
   nav a::before {
     content: "";
@@ -103,5 +110,8 @@ html {
     position: relative;
   }
   
-
-
+.ul li{
+  font-family: "amandine", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
