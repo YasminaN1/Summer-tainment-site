@@ -4,7 +4,7 @@ html {
   }
   
   body.home {
-    background-image: url(imgs/sunset.png);
+    background-image: url(imgs/);
     background-size: cover;
     Background-position: center;
     font-family: 'Gill Sans', sans serif;
@@ -14,7 +14,7 @@ html {
   }
  
   body.travels {
-    background-image: url(imgs/palm\ tree.avif);
+    background-image: url(imgs/);
     background-size: cover;
     Background-position: center;
     font-family: 'Gill Sans', sans serif;
@@ -50,12 +50,12 @@ html {
     color: #5ba7e1;
   }
   
-  h6 {
+  p {
     font-family: "amandine", sans-serif;
     font-weight: 400;
     font-size: 20px;
     font-style: normal;
-    color: #d6dcff;
+    color: #f1a2a2;
   }
   
  .nav-link{
@@ -75,14 +75,14 @@ html {
     margin-left: 20px;
   }
   
-   nav a {
+    nav a {
     font-family: "lindsey-signature", sans-serif;
     font-weight: 500;
     font-style: normal;
     position: relative;
-    color: #f27945;
+    color: #45a4f2;
     text-decoration: none;
-  }
+  } 
   
   
   nav a::before {
@@ -106,12 +106,70 @@ html {
     display: inline;
   } 
 
-  .waviy {
-    position: relative;
-  }
   
 .ul li{
   font-family: "amandine", sans-serif;
   font-weight: 100;
   font-style: normal;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.footer {
+  background: #fecdbb;
+  padding: 30px 0px;
+  font-family: 'Play', sans-serif;
+  text-align: center;
+}
+
+.footer .row {
+  width: 100%;
+  margin: 1% 0%;
+  padding: 0.6% 0%;
+  color: gray;
+  font-size: 0.8em;
+}
+
+.footer .row a {
+  text-decoration: none;
+  color: gray;
+  transition: 0.5s;
+}
+
+.footer .row a:hover {
+  color: #fff;
+}
+
+.footer .row ul {
+  width: 100%;
+}
+
+.footer .row ul li {
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+.footer .row a i {
+  font-size: 2em;
+  margin: 0% 1%;
+}
+
+@media (max-width:720px) {
+  .footer {
+    text-align: left;
+    padding: 5%;
+  }
+
+
+  .footer .row ul li {
+    display: block;
+    margin: 10px 0px;
+    text-align: left;
+  }
+
+  .footer .row a i {
+    margin: 0% 3%;
+  }
 }
