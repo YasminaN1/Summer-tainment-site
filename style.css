@@ -4,7 +4,7 @@ html {
   }
   
   body.home {
-    background-image: url(imgs/);
+    background-image: url(imgs/palm\ tree.jpg);
     background-size: cover;
     Background-position: center;
     font-family: 'Gill Sans', sans serif;
@@ -14,7 +14,7 @@ html {
   }
  
   body.travels {
-    background-image: url(imgs/);
+    background-image: url(imgs/palm\ tree.jpg);
     background-size: cover;
     Background-position: center;
     font-family: 'Gill Sans', sans serif;
@@ -26,12 +26,13 @@ html {
   h1 {
     font-family: "amandine", sans-serif;
     font-weight: 500;
-    font-size: 200px;
+    font-size: 150px;
     font-style: normal;
     position: relative;
     color: #aecfeb;
     text-decoration: none;
     margin-top: 200px;
+    text-shadow: 2px 4px 3px rgb(115, 72, 255);
   }
   
   h4 {
@@ -39,7 +40,8 @@ html {
     font-weight: 400;
     font-size: 30px;
     font-style: normal;
-    color: #5ba7e1;
+    color: #071b43;
+    text-shadow:2px 4px 3px rgb(115, 197, 237);
   }
   
   h5 {
@@ -111,6 +113,8 @@ html {
   font-family: "amandine", sans-serif;
   font-weight: 100;
   font-style: normal;
+  text-shadow: 2px 4px 3px rgb(115, 197, 237);
+  color:#071b43;
 }
 
 footer {
@@ -118,7 +122,7 @@ footer {
 }
 
 .footer {
-  background: #fecdbb;
+  background: #bbd1fe;
   padding: 30px 0px;
   font-family: 'Play', sans-serif;
   text-align: center;
@@ -128,13 +132,13 @@ footer {
   width: 100%;
   margin: 1% 0%;
   padding: 0.6% 0%;
-  color: gray;
+  color: rgb(255, 246, 246);
   font-size: 0.8em;
 }
 
 .footer .row a {
   text-decoration: none;
-  color: gray;
+  color: rgb(121, 154, 244);
   transition: 0.5s;
 }
 
@@ -172,4 +176,27 @@ footer {
   .footer .row a i {
     margin: 0% 3%;
   }
+}
+
+.card img {
+  width: 490px;
+  height: 490px;
+}
+
+.card {
+  max-width: 1030px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px;
+  text-align: center;
+  margin: 0 auto;
+  float: none;
+  border: 1px solid rgba(255, 255, 255, .25);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(15px);
 }
